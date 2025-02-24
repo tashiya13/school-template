@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+ html,body{
+    height:100%;
+    width:100%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1675014768031-7bf2773a0b75?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2hpdGUlMjBiYWNrZ3JvdW5kJTIwd2l0aCUyMGdyZWVuJTIwdG91Y2h8ZW58MHx8MHx8fDA%3D");
+}
+    
+
+#main{
+
+/* background-color:lightseagreen; */
+height:100%;
+    width:100%;
+
+
+}
+ #nav{
+
+    display: flex;
+     justify-content: space-around;
+     margin: 50px;
+ }
+
+ #leftnav a {
+    color:black;
+}     
+
+    
+
+#nav #leftnav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    }
+    #nav i{
+        height:20%;
+        width:100%;
+        font-size: 30px;
+        color:green;
+    }
+
+    
+ #rightnav{ 
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+#rightnav a{
+    padding: 10px;
+    color:black;
+    font-size: 28px;
+}
+
+ 
+#rightnav i {
+    font-size: 30px;
+    
+}
+#leftnav a{
+    padding: 15px;
+    font-size: 28px;
+    text-decoration: none;
+}
+#bnav {
+    display:flex;
+    /* direction:column; */
+    height:50%;
+    width:100%;
+    /* background-color: yellow; */
+}
+#content{
+    height:100%;
+    width: 50%;
+    /* background-color: yellow; */
+}
+#content h1{
+    font-weight:100;
+}
+#image{
+    height:100%;
+    width:50%;
+    background-image: url("https://media.istockphoto.com/id/1148232185/photo/teacher-using-tablet-computer-in-elementary-school-lesson.jpg?s=1024x1024&w=is&k=20&c=gch_9YP584nH9UXQp3PY2mCx9c_9A5WEDDzlDBt6nPA=");
+/* background-color:red; */
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 80%; 
+} 
+#bnav2{
+    display:flex;
+    direction:row;
+}
+    
